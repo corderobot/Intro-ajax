@@ -3,7 +3,8 @@ var lat;
 var lon;
 var humidity;
 var city;
-var temp;
+var temp_max;
+var temp_min;
 
 var apiKey = "6efc7e595cf4af1d33d6d33aac14616a";
 var country = "Guatemala";
@@ -19,13 +20,15 @@ $(document).ready(function(){
 			success: function(msj, estado, xhr){
 				console.log(msj);
 				console.log(estado);
-				clima = (msj["list"][0]["weather"][0]["description"]);
-				lat = (msj["city"]["coord"]["lat"]);
-				lon = (msj["city"]["coord"]["lon"]);
-				humidity = (msj["list"][0]["main"]["humidity"]);
 				city = (msj["city"]["name"]);
-				temp = (msj["list"][0]["main"]["temp"]) - 273.15;
-				console.log(lat);
+				lat = (msj["city"]["coord"]["lat"]).toFixed(2);
+				lon = (msj["city"]["coord"]["lon"]).toFixed(2);
+				
+				clima = (msj["list"][0]["weather"][0]["description"]);
+				humidity = (msj["list"][0]["humidity"]);
+				temp_max = (msj["list"][0]["temp"]["max"]).toFixed(2);
+				temp_min = (msj["list"][0]["temp"]["min"]).toFixed(2);
+				console.log(temp_max);
 			}	
 		});
 	})
