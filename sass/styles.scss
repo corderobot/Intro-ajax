@@ -1,0 +1,44 @@
+.encabezado{
+	background-color: green;
+	border-radius: 10px;
+}
+
+.contenedor{
+	overflow: hidden;
+	margin-bottom: 50px;
+	.encabezado2{
+		float: right;
+		height: 100%;
+		margin-left: 10px;
+	}
+	.input{
+		margin-right: 30%;
+	}
+}
+
+.principal{
+		height: 400px;
+		width: 70%;
+		margin-left: 100px;
+		margin: auto;
+		.dia_seleccionado{
+			border-radius: 50px;
+			height: 100%;
+			background-image: url("../img/fondo.jpg");
+		}
+}
+
+@for $number from 1 through 7{
+	#dia_#{$number}{
+		height: 100%;
+		margin-left: 5px;
+		margin-right: 5px;
+		background-color: blue;
+	}
+}
+
+.dias{
+	height: 200px;
+	width: 14%;
+	float: right;
+}
