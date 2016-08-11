@@ -12,6 +12,10 @@
   .contenedor .input {
     margin-right: 30%; }
 
+.pequeno {
+  width: 40%;
+  height: 40%; }
+
 .principal {
   height: 400px;
   width: 70%;
@@ -22,49 +26,55 @@
     height: 100%;
     background-image: url("../img/fondo.jpg"); }
 
+#dia_0 {
+  height: 100%;
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
+
 #dia_1 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
 #dia_2 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
 #dia_3 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
 #dia_4 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
 #dia_5 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
 #dia_6 {
   height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+  margin-left: 7px;
+  margin-right: 7px;
+  background-color: pink; }
 
-#dia_7 {
-  height: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
-  background-color: blue; }
+#titulo {
+  text-align: center; }
 
 .dias {
   height: 200px;
   width: 14%;
   float: right; }
+
+h3 {
+  text-align: center; }

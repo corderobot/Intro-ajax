@@ -16,6 +16,11 @@
 	}
 }
 
+.pequeno{
+	width: 40%;
+	height: 40%;
+}
+
 .principal{
 		height: 400px;
 		width: 70%;
@@ -28,17 +33,26 @@
 		}
 }
 
-@for $number from 1 through 7{
+@for $number from 0 through 6{
 	#dia_#{$number}{
 		height: 100%;
-		margin-left: 5px;
-		margin-right: 5px;
-		background-color: blue;
+		margin-left: 7px;
+		margin-right: 7px;
+		background-color: pink;
 	}
 }
+
+#titulo{
+	text-align: center;
+}
+
 
 .dias{
 	height: 200px;
 	width: 14%;
 	float: right;
+}
+
+h3{
+	text-align: center;
 }
