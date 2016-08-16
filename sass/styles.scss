@@ -1,5 +1,12 @@
+$height_width: 40%;
+$font: 30px;
+
+body{
+	background-image: url("../img/body_fondo.jpg");
+}
+
 .encabezado{
-	background-color: green;
+	background-color: gray;
 	border-radius: 10px;
 }
 
@@ -12,7 +19,7 @@
 		margin-left: 10px;
 	}
 	.input{
-		margin-right: 30%;
+		margin-right: 40%;
 	}
 }
 
@@ -26,24 +33,21 @@
 		width: 70%;
 		margin-left: 100px;
 		margin: auto;
-		.dia_seleccionado{
+		.dia_0{
 			border-radius: 50px;
 			height: 100%;
 			background-image: url("../img/fondo.jpg");
+			img{
+				width: $height_width;
+				height: $height_width;
+			}
+			.texto{
+				font-size: $font;
+			}
+			.texto2{
+				font-size: ($font)-10px;
+			}
 		}
-}
-
-@for $number from 0 through 6{
-	#dia_#{$number}{
-		height: 100%;
-		margin-left: 7px;
-		margin-right: 7px;
-		background-color: pink;
-	}
-}
-
-#titulo{
-	text-align: center;
 }
 
 
@@ -51,8 +55,26 @@
 	height: 200px;
 	width: 14%;
 	float: right;
+	img{
+		width: $height_width;
+		height: $height_width;
+	}
+	@for $number from 0 through 6{
+		.dia_#{$number}{
+			height: 100%;
+			margin-left: 7px;
+			margin-right: 7px;
+			background-color: pink;
+			.texto{
+				font-size: 10px;
+			}
+			.texto2{
+				font-size: ($font)-20px;
+			}
+		}
+	}
 }
 
-h3{
+.center{
 	text-align: center;
 }

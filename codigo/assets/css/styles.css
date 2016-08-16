@@ -1,5 +1,8 @@
+body {
+  background-image: url("../img/body_fondo.jpg"); }
+
 .encabezado {
-  background-color: green;
+  background-color: gray;
   border-radius: 10px; }
 
 .contenedor {
@@ -10,7 +13,7 @@
     height: 100%;
     margin-left: 10px; }
   .contenedor .input {
-    margin-right: 30%; }
+    margin-right: 40%; }
 
 .pequeno {
   width: 40%;
@@ -21,60 +24,88 @@
   width: 70%;
   margin-left: 100px;
   margin: auto; }
-  .principal .dia_seleccionado {
+  .principal .dia_0 {
     border-radius: 50px;
     height: 100%;
     background-image: url("../img/fondo.jpg"); }
-
-#dia_0 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_1 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_2 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_3 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_4 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_5 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#dia_6 {
-  height: 100%;
-  margin-left: 7px;
-  margin-right: 7px;
-  background-color: pink; }
-
-#titulo {
-  text-align: center; }
+    .principal .dia_0 img {
+      width: 40%;
+      height: 40%; }
+    .principal .dia_0 .texto {
+      font-size: 30px; }
+    .principal .dia_0 .texto2 {
+      font-size: 20px; }
 
 .dias {
   height: 200px;
   width: 14%;
   float: right; }
+  .dias img {
+    width: 40%;
+    height: 40%; }
+  .dias .dia_0 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_0 .texto {
+      font-size: 10px; }
+    .dias .dia_0 .texto2 {
+      font-size: 10px; }
+  .dias .dia_1 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_1 .texto {
+      font-size: 10px; }
+    .dias .dia_1 .texto2 {
+      font-size: 10px; }
+  .dias .dia_2 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_2 .texto {
+      font-size: 10px; }
+    .dias .dia_2 .texto2 {
+      font-size: 10px; }
+  .dias .dia_3 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_3 .texto {
+      font-size: 10px; }
+    .dias .dia_3 .texto2 {
+      font-size: 10px; }
+  .dias .dia_4 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_4 .texto {
+      font-size: 10px; }
+    .dias .dia_4 .texto2 {
+      font-size: 10px; }
+  .dias .dia_5 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_5 .texto {
+      font-size: 10px; }
+    .dias .dia_5 .texto2 {
+      font-size: 10px; }
+  .dias .dia_6 {
+    height: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: pink; }
+    .dias .dia_6 .texto {
+      font-size: 10px; }
+    .dias .dia_6 .texto2 {
+      font-size: 10px; }
 
-h3 {
+.center {
   text-align: center; }
