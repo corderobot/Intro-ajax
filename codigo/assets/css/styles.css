@@ -16,11 +16,11 @@ body {
     margin-right: 40%; }
 
 .pequeno {
-  width: 40%;
-  height: 40%; }
+  width: .pequeno height_width;
+  height: .pequeno height_width; }
 
 .principal {
-  height: 400px;
+  height: 600px;
   width: 70%;
   margin-left: 100px;
   margin: auto; }
@@ -36,8 +36,14 @@ body {
     .principal .dia_0 .texto2 {
       font-size: 20px; }
 
+.right {
+  float: right; }
+
+.margen {
+  margin-left: 6%; }
+
 .dias {
-  height: 200px;
+  height: 300px;
   width: 14%;
   float: right; }
   .dias img {

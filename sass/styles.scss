@@ -24,12 +24,12 @@ body{
 }
 
 .pequeno{
-	width: 40%;
-	height: 40%;
+	width: &height_width;
+	height: &height_width;
 }
 
 .principal{
-		height: 400px;
+		height: 600px;
 		width: 70%;
 		margin-left: 100px;
 		margin: auto;
@@ -50,9 +50,16 @@ body{
 		}
 }
 
+.right{
+	float: right;
+}
+
+.margen{
+	margin-left: 6%; 
+}
 
 .dias{
-	height: 200px;
+	height: 300px;
 	width: 14%;
 	float: right;
 	img{
