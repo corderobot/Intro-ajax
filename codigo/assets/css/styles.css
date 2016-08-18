@@ -1,40 +1,43 @@
 body {
   background-image: url("../img/body_fondo.jpg"); }
 
+.font_type {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold; }
+
 .encabezado {
   background-color: gray;
   border-radius: 10px; }
 
 .contenedor {
   overflow: hidden;
-  margin-bottom: 50px; }
+  margin-bottom: 10px; }
   .contenedor .encabezado2 {
     float: right;
     height: 100%;
     margin-left: 10px; }
-  .contenedor .input {
+  .contenedor .bot {
     margin-right: 40%; }
 
 .pequeno {
   width: .pequeno height_width;
   height: .pequeno height_width; }
 
-.principal {
-  height: 600px;
-  width: 70%;
-  margin-left: 100px;
+#principal {
+  height: 400px;
+  width: 40%;
   margin: auto; }
-  .principal .dia_0 {
+  #principal #grande {
     border-radius: 50px;
     height: 100%;
     background-image: url("../img/fondo.jpg"); }
-    .principal .dia_0 img {
+    #principal #grande img {
       width: 40%;
       height: 40%; }
-    .principal .dia_0 .texto {
-      font-size: 30px; }
-    .principal .dia_0 .texto2 {
-      font-size: 20px; }
+    #principal #grande .texto {
+      font-size: 17px; }
+    #principal #grande .texto2 {
+      font-size: 14px; }
 
 .right {
   float: right; }
@@ -43,74 +46,20 @@ body {
   margin-left: 6%; }
 
 .dias {
-  height: 300px;
-  width: 14%;
-  float: right; }
+  height: 250px;
+  width: 14%; }
   .dias img {
     width: 40%;
     height: 40%; }
-  .dias .dia_0 {
+  .dias .mini {
+    border-radius: 10px;
     height: 100%;
     margin-left: 7px;
     margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_0 .texto {
-      font-size: 10px; }
-    .dias .dia_0 .texto2 {
-      font-size: 10px; }
-  .dias .dia_1 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_1 .texto {
-      font-size: 10px; }
-    .dias .dia_1 .texto2 {
-      font-size: 10px; }
-  .dias .dia_2 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_2 .texto {
-      font-size: 10px; }
-    .dias .dia_2 .texto2 {
-      font-size: 10px; }
-  .dias .dia_3 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_3 .texto {
-      font-size: 10px; }
-    .dias .dia_3 .texto2 {
-      font-size: 10px; }
-  .dias .dia_4 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_4 .texto {
-      font-size: 10px; }
-    .dias .dia_4 .texto2 {
-      font-size: 10px; }
-  .dias .dia_5 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_5 .texto {
-      font-size: 10px; }
-    .dias .dia_5 .texto2 {
-      font-size: 10px; }
-  .dias .dia_6 {
-    height: 100%;
-    margin-left: 7px;
-    margin-right: 7px;
-    background-color: pink; }
-    .dias .dia_6 .texto {
-      font-size: 10px; }
-    .dias .dia_6 .texto2 {
+    background-image: url("../img/fondo_miniatura.jpg"); }
+    .dias .mini .texto {
+      font-size: 13px; }
+    .dias .mini .texto2 {
       font-size: 10px; }
 
 .center {
