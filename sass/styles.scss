@@ -1,8 +1,13 @@
 $height_width: 40%;
-$font: 30px;
+$font: 17px;
 
 body{
 	background-image: url("../img/body_fondo.jpg");
+}
+
+.font_type{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
 }
 
 .encabezado{
@@ -12,13 +17,13 @@ body{
 
 .contenedor{
 	overflow: hidden;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	.encabezado2{
 		float: right;
 		height: 100%;
 		margin-left: 10px;
 	}
-	.input{
+	.bot{
 		margin-right: 40%;
 	}
 }
@@ -28,12 +33,11 @@ body{
 	height: &height_width;
 }
 
-.principal{
-		height: 600px;
-		width: 70%;
-		margin-left: 100px;
+#principal{
+		height: 400px;
+		width: 40%;
 		margin: auto;
-		.dia_0{
+		#grande{
 			border-radius: 50px;
 			height: 100%;
 			background-image: url("../img/fondo.jpg");
@@ -45,7 +49,7 @@ body{
 				font-size: $font;
 			}
 			.texto2{
-				font-size: ($font)-10px;
+				font-size: ($font)-3px;
 			}
 		}
 }
@@ -59,25 +63,23 @@ body{
 }
 
 .dias{
-	height: 300px;
+	height: 250px;
 	width: 14%;
-	float: right;
 	img{
 		width: $height_width;
 		height: $height_width;
 	}
-	@for $number from 0 through 6{
-		.dia_#{$number}{
-			height: 100%;
-			margin-left: 7px;
-			margin-right: 7px;
-			background-color: pink;
-			.texto{
-				font-size: 10px;
-			}
-			.texto2{
-				font-size: ($font)-20px;
-			}
+	.mini{
+		border-radius: 10px;
+		height: 100%;
+		margin-left: 7px;
+		margin-right: 7px;
+		background-image: url("../img/fondo_miniatura.jpg");
+		.texto{
+			font-size: ($font)-4px;
+		}
+		.texto2{
+			font-size: ($font)-7px;
 		}
 	}
 }
